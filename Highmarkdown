@@ -1,0 +1,83 @@
+Author:
+Title:
+Date:
+ID:
+
+<style>
+img { max-width:100%; height:auto; }
+body {font-family: Hiragino Sans CNS; font-size: 20px; margin: 50px 50px 100px 100px; line-height:2}
+span.accentT {
+color:;
+border-top: solid;
+border-top-color: green; 
+border-top-style: 1px;
+border-top-width: 2px;
+}
+span.accentB {
+color:;
+border-bottom: solid;
+border-bottom-color: green; 
+border-bottom-style: 1px;
+border-bottom-width: 2px;
+}
+span.accentR {
+color:;
+border-top: solid;
+border-top-color: green; 
+border-top-style: 1px;
+border-top-width: 2px;
+border-right: solid;
+border-right-color: green; 
+border-right-style: 1px;
+border-right-width: 2px;
+}
+span.accentL {
+border-top: solid;
+border-top-color: green; 
+border-top-style: 1px;
+border-top-width: 2px;
+border-left: solid;
+border-left-color: green; 
+border-left-style: 1px;
+border-left-width: 2px;
+}
+.box {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+@media print {
+   body {
+      -webkit-print-color-adjust: exact;
+font-family: Hiragino Sans CNS;
+font-size: 10px;
+margin: 20px 20px 50px 50px;
+line-height:1.5
+   }
+.vendorListHeading th {
+   background-color: green !important;
+   background-color: purple !important;
+   background-color: gree !important;
+   background-color: maroon !important;
+   background-color: yellow !important;
+   color: crimson !important;
+}
+}
+</style>
+
+<P style="page-break-before: always">
+
+
+
+
+<div class="box">
+<p>This is the box</p>
+</div>
